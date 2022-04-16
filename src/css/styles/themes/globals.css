@@ -29,7 +29,7 @@ html {
     align-items: center;
   }
   
-  /* .redes-sociais a {
+  .redes-sociais a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -73,7 +73,7 @@ html {
     text-transform: uppercase;
   }
   
-  .botao {
+  /* .botao {
     font-size: var(--fonte-grande);
     padding: 10px 20px;
     border-radius: 20px;
