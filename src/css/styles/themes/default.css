@@ -1,16 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
 :root {
     --first-color: #FAFAFA;
     --second-color: #000000;
     --first-background: #000000;
     --second-background: #607D8B;
     --third-background: #CFD8DC;
+    font-family: 'Comfortaa', cursive;
 }
 
 h1 {
     font-size: 16px;
-    color: ;
-    font-family: ;
-    font-weight: ;
+    color: var(--second-color);
 }
 
 h2 {
