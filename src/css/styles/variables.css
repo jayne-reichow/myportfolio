@@ -1,11 +1,12 @@
 :root {
     --cor-primaria:#607D8B;
     --cor-secundaria: #CFD8DC;
-    --cor-branca: #fff;
+    --cor-branca: #ffffff;
     --cor-fundo-escuro: #040203;
     --cor-fundo-cinza-escuro: #282828;
-    --cor-fundo-cinza-claro: #353535;
+    /* --cor-fundo-cinza-claro: #353535; */
 }
+
 
 :root {
     --fonte-gigante: 4.5rem;

@@ -29,7 +29,7 @@ html {
     align-items: center;
   }
   
-  /* .redes-sociais a {
+  .redes-sociais a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -84,4 +84,4 @@ html {
   .botao:hover {
     background-color: var(--cor-secundaria);
     color: var(--cor-branca);
-  } */
+  }
