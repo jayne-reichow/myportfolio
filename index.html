@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/styles/default.css">
+    <link rel="stylesheet" href="src/css/styles/reset.css">
     <link rel="stylesheet" href="src/css/styles/themes/common.css">
     <link rel="stylesheet" href="src/css/styles/header.css">
     <link rel="stylesheet" href="src/css/styles/globals.css">
     <link rel="stylesheet" href="src/css/styles/variables.css">
     <link rel="stylesheet" href="src/css/styles/home.css">
     <link rel="stylesheet" href="src/css/styles/themes/darkmode.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="src/css/styles/habilidades.css">
+    <link rel="stylesheet" href="src/css/styles/projetos.css">
+    <link rel="stylesheet" href="src/css/font-awesome.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
@@ -39,7 +44,7 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contatos">Contatos</a></li>
-                <img src="./src/images/moon.png" id="icon">
+                <!-- <img src="./src/images/moon.png" id="icon"> -->
               </ul>
               
             </nav>
@@ -52,21 +57,21 @@
         <div class="container">
           <div class="row full-screen alinhar-itens-no-centro">
             <div class="texto-home">
-              <p>WELCOME TO MY PORTFOLIO 🖖,</p>
+              <p>WELCOME TO MY PORTFOLIO 🤙</p>
               <h1>Sou a Jayne Reichow</h1>
               <h2>Desenvolvedora Frontend</h2>
     
               <div class="redes-sociais">
-                <a href="#" class="outer-shadow">
+                <a href="https://www.linkedin.com/in/jayne-reichow/" target="_blank" class="outer-shadow">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#" class="outer-shadow">
+                <a href="https://wa.me/message/53W5V5C7HHA2B1" target="_blank" class="outer-shadow">
                   <i class="fab fa-whatsapp"></i>
                 </a>
-                <a href="#" class="outer-shadow">
+                <a href="https://github.com/jayne-reichow" target="_blank" class="outer-shadow">
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="outer-shadow">
+                <a href="https://www.instagram.com/msreichow/" target="_blank" class="outer-shadow">
                   <i class="fab fa-instagram"></i>
                 </a>
               </div>
@@ -80,9 +85,199 @@
           </div>
         </div>
       </section>
+
+      <section class="habilidades section" id="habilidades">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Habilidades</h2>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container-habilidades row">
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon-javascript-plain"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Algoritmos, operadores lógicos, laços, condicionais, funções, escopos, DOM, document, API, NPM... </p>
+            <!-- <p>Tenho uma boa base do JS. Já entendo bem conceitos como callbacks, promisses, async/await, consumo de APIs, destructuring, spread operators, dentre outros. </p> -->
+          </div>
+    
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Iframes, videos, audios, picture, tags semânticas, formulário, Inputs, metatags...</p>
+          </div>
+    
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Grid, Flexbox, Pseudo-elementos, Pseudo-classes, Media queries, formatações de textos e imagens...</p>
+          </div>
+    
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon devicon-github-original"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>Repositories, GitHub Pages, readme, forks, merge...</p>
+          </div>
+    
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon devicon-git-plain"></i>
+            </div>
+            <h3>Git</h3>
+            <p>Init, add, pwd, clear, rm, branch, remote, commit, push, status, checkout, clone, mkdir, cd...</p>
+          </div>
+
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon devicon-vscode-plain"></i>
+            </div>
+            <h3>VSCode</h3>
+            <p></p>
+          </div>
+
+
+
+
+          
+        </div>
+      </section>
+
+      <section class="habilidades section" id="habilidades">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+      <h2>Próximas Tecnologias</h2>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container-habilidades row">
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon devicon-jest-plain"></i>
+            </div>
+            <h3>Jest</h3>
+            <p></p>
+          </div>
+    
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devico devicon-react-original"></i>
+            </div>
+            <h3>React</h3>
+            <p></p>
+          </div>
+    
+          <div class="habilidade">
+            <div class="logo">
+              <i class="devicon devicon-redux-original"></i>
+            </div>
+            <h3>Redux</h3>
+            <p></p>
+          </div>
+    
+            
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    
+      <section class="projetos" id="projetos">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Meus Projetos</h2>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container-projetos container">
+          <div class="projeto">
+            <a href="https://jayne-reichow.github.io/landing-page-code-cafe/" target="_blank">
+              <img src="src/images/CodeCafe.gif" alt="Landing Page Code Café">
+              <h3>Landing Page Code Café</h3>
+              <div class="informacoes-projeto">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed quidem animi corrupti?</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+    
+          <div class="projeto">
+            <a href="#" target="_blank">
+              <img src="https://via.placeholder.com/515x700/607D8B/000000?text=Loading..." alt="Nome do projeto 2">
+              <!-- <h3>Loading...</h3> -->
+              <div class="informacoes-projeto">
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed quidem animi corrupti?</p>
+                <p>🔗 Ver no GitHub Pages</p> -->
+              </div>
+            </a>
+          </div>
+    
+          <div class="projeto">
+            <a href="#" target="_blank">
+              <img src="https://via.placeholder.com/515x700/CFD8DC/000000?text=Loading..." alt="Nome do projeto 3">
+              <!-- <h3>Loading...</h3> -->
+              <div class="informacoes-projeto">
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed quidem animi corrupti?</p>
+                <p>🔗 Ver no GitHub Pages</p> -->
+              </div>
+            </a>
+          </div>
+    
+          <div class="projeto">
+            <a href="#" target="_blank">
+              <img src="https://via.placeholder.com/515x700/607D8B/000000?text=Loading..." alt="Nome do projeto 4">
+              <!-- <h3>Loading...</h3> -->
+              <div class="informacoes-projeto">
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed quidem animi corrupti?</p>
+                <p>🔗 Ver no GitHub Pages</p> -->
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- <footer class="footer">
+        <div class="container">
+          <h2>Me envie uma mensagem!</h2>
+          <div class="redes-sociais">
+            <a href="#" class="outer-shadow">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="outer-shadow">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="outer-shadow">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="outer-shadow">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer> -->
+    
     
 
-<script src="./main.js"></script>
+<!-- <script src="./main.js"></script> -->
 </body>
 
 </html>

@@ -6,7 +6,7 @@ html {
   }
   
   body {
-    background-color: var(--primary-claro);
+    background-color: var(--cor-fundo-escuro);
     font-family: 'Comfortaa', cursive;
     font-size: var(--fonte-normal);
   }
@@ -73,7 +73,7 @@ html {
     text-transform: uppercase;
   }
   
-  /* .botao {
+  .botao {
     font-size: var(--fonte-grande);
     padding: 10px 20px;
     border-radius: 20px;
@@ -84,4 +84,4 @@ html {
   .botao:hover {
     background-color: var(--cor-secundaria);
     color: var(--cor-branca);
-  } */
+  }

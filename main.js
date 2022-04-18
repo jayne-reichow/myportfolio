@@ -1,6 +1,6 @@
-var icon = document.getElementById("icon");
+// var icon = document.getElementById("icon");
 
-icon.onclick = function(){
-  document.body.classList.toggle("light-theme");
-  console.log("oi")
-}
+// icon.onclick = function(){
+//   document.body.classList.toggle("light-theme");
+//   console.log("oi")
+// }
